@@ -1,0 +1,16 @@
+.calender{
+color: white;
+}
+
+.calenderContainer{background-color: #D3B6A0;
+    padding: 20px;
+margin: 80px 500px 0px 80px;}
+
+button{background-color: transparent;
+color: white;
+border: none;
+cursor: pointer;}
+
+.react-calendar__tile--range {
+    box-shadow: 0 0 6px 2px black;
+}
