@@ -23,16 +23,16 @@ function App() {
 <nav>
   <ul>
     <li>
-      <Link to ="/">To Do</Link>
+      <Link to ="/">To Do | </Link>
     </li>
     <li>
-      <Link to ="/expense">Expense Tracker</Link>
+      <Link to ="/expense">Expense Tracker | </Link>
     </li>
     <li>
-      <Link to ="/study">Study Room</Link>
+      <Link to ="/study">Study Room | </Link>
     </li>
     <li>
-      <Link to ="/journal">Journal</Link>
+      <Link to ="/journal">Journal </Link>
     </li>
   </ul>
 </nav>
