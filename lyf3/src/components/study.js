@@ -37,7 +37,7 @@ const timerSeconds = seconds < 10 ? `0${seconds}`: seconds
 
     return <div className="pomodoro">
         <p>Infinite Pomodoro Timer</p>
-        <p className="info">"25 minute study session with a 15 minute Break"</p>
+        <p className="info"><b>"25 minute </b>study session with a <b>15 minute</b> Break"</p>
         <div className="message">
             {displayMessage && <div>Break Time! New Session starts in :</div>}
         </div>

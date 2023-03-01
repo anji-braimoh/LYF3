@@ -1,27 +1,30 @@
 .quote-container{
     background-color: #AA7C60;
     margin: 70px 100px 0px 100px;
+    display:grid;
+height: 100%;
+justify-content: center;
+align-items: center;
 }
 
 .qbtn{cursor: pointer;
 border: 2px solid #fff;
-display: block;
 background-color: transparent;
-padding: 10px 15px;
+padding: 10px;
+width: 150px;
 color: #fff;
 font-size: 15px;
 border-radius: 5px;
 outline: none;
 transition: background 1s, color 1s;
-margin: 25px 0px 0px 280px;
+justify-content: center;
+align-items: center;
+margin: auto;
+
 
 }
 
-.qbtn-hover{
-    background-color: #fff;
-    color: #fff;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
+
 
 .quote{display: flex;
 justify-content: center;
