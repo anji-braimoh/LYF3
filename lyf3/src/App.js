@@ -10,6 +10,9 @@ import { Study } from './components/study';
 import { Journal } from './components/journal';
 import { Today } from './components/Today';
 import { Week } from './components/week';
+import { Month } from './components/month';
+import { Shopping } from './components/shopping';
+import { Appointments } from './components/appointments';
 
 function App() {
   return (
@@ -23,7 +26,7 @@ function App() {
 <nav>
   <ul>
     <li>
-      <Link to ="/">To Do | </Link>
+      <Link to ="/todo">To Do | </Link>
     </li>
     <li>
       <Link to ="/expense">Expense Tracker | </Link>
@@ -37,12 +40,13 @@ function App() {
   </ul>
 </nav>
     <Routes>
-      <Route path="/" element = {<ToDo />} />
+      <Route path="/todo" element = {<ToDo />} >
         <Route path = "today" element = {<Today />} />
         <Route path = "week" element ={<Week/>} />
-       
-
-
+        <Route path = "month" element= {<Month/>}/>
+        <Route path= "shopping" element = {<Shopping/>}/>
+        <Route path= "appointments" element= {<Appointments/>}/>
+        </Route>
       <Route path="/expense" element = {<Expense />} />
       <Route path="/study" element = {<Study />} />
       <Route path="/journal" element = {<Journal />} />

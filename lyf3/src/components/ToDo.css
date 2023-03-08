@@ -1,0 +1,23 @@
+.toDoNav{background-color: #ECD4B4 ;
+    width: 200px;
+    margin: 40px;
+}
+
+.toDoUl{list-style-type: none;
+margin: 0;
+padding: 0;
+width: auto;
+border: 1px solid #555;}
+
+.toDoLi a{display: block;
+    width: 100px;
+color: white;
+padding: 8px 16px;
+text-decoration: none;}
+
+.toDoLi {text-align: center;
+border-bottom: 1px solid #555;}
+
+.toDoLi:last-child {
+    border-bottom: none;
+  }
