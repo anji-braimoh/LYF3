@@ -8,11 +8,11 @@ import './ToDo.css';
 export function ToDo() {
   return (
     <div className='toDo'>
-        <h1>To do </h1>
+        
         <div className='toDoNav'>
             <ul className='toDoUl'>
                 <li className='toDoLi'>
-            <Link to = "today">Today's Schedule</Link>
+            <Link to = "today" >Today's Schedule</Link>
             </li>
             <li className='toDoLi'>
             <Link to = "week">This Weeks Goals</Link>

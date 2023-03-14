@@ -1,6 +1,10 @@
 .toDoNav{background-color: #ECD4B4 ;
     width: 200px;
     margin: 40px;
+    
+    
+}
+.toDo{width: 200px;
 }
 
 .toDoUl{list-style-type: none;
@@ -21,3 +25,4 @@ border-bottom: 1px solid #555;}
 .toDoLi:last-child {
     border-bottom: none;
   }
+
